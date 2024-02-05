@@ -85,7 +85,7 @@ class Point():
     def dist(self, newp):
         return math.sqrt((self.x - newp.x) ** 2 + (self.y - newp.y)**2)
     def q(self):
-        self.shirek = 
+        self.shirek = 0
 
 class Circle():
     def __init__(self, center, radius):
